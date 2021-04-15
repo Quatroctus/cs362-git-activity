@@ -1,5 +1,4 @@
 def calc(a, b):
-    print(a + b)
-    print(a - b)
-    print(a * b)
-    print(f"{a / b} {a % b}/{b}")
+    results = [a+b, a-b, a*b, a/b]
+    for a in results:
+        print(a)
