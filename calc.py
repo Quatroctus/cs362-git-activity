@@ -1,3 +1,3 @@
 def calc(a, b):
-    s = a + b
-    print(s)
+    print(a + b)
+    print(a - b)
