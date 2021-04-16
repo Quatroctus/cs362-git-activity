@@ -1,2 +1,4 @@
+from math import sqrt
+
 def find_divisors(n: int):
-    pass
+    upper_bound = sqrt(n)
